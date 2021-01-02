@@ -1,0 +1,230 @@
+body{
+    font-family: Verdana;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+}
+header{
+    width: 100%;
+    height:150px;
+    background-color:black;
+    position: relative;
+}
+.wrapper{
+    width: 95%;
+    height:60%;
+    margin:0 auto;
+    position:absolute;
+    top:25%;
+    left:2.5%;
+}
+.inner-wrapper{
+    width:100%;
+    height:80%;
+    margin:0 auto
+}
+.menu{
+    float:right;
+    position: relative;
+}
+.logo, .menu{
+    display:inline-block;
+    vertical-align: top;
+    margin-bottom: -60px;
+}
+.logo{
+    width:30%;
+}
+.menu-link{
+    line-height: 66px;
+    color:white;
+    font-weight:900;
+    width:195px;
+    display:inline-block;
+    font-size: 16px;
+    text-align: center;
+}
+.menu-link-special{
+    background: rgb(230,0,67);
+    border-radius: 7px;
+}
+.container{
+    width:90%;
+    height:500px;
+    margin:0 auto;
+    margin-top:50px;
+    text-align: center;
+}
+h1{
+    font-size: 46px;
+}
+.primary-color{
+    color: rgb(230,0,67);
+}
+.primary-color-bg{
+    background-color: rgb(230,0,67) !important;
+    color:white !important;
+}
+.card{
+    width:19%;
+    margin:13px;
+    height:240px;
+    background-color: black;
+    display:inline-block;
+    padding:5px;
+    vertical-align: top;
+}
+.card-active{
+    background-color:rgb(230,0,67);
+}
+.card p{
+    font-size:26px;
+    color:white;
+    font-weight: normal;
+    margin:10px;
+}
+.card-number{
+    font-weight: 900 !important;
+}
+.next-button, .back-button{
+    text-transform: uppercase;
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    margin:20px auto;
+    border:none;
+    padding: 16px 35px 16px 35px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.section-title{
+    font-size:20px;
+}
+
+.form-text-standard{
+    width:250px;
+    height:40px;
+    padding:5px 15px 5px 15px;
+    font-size:16px;
+    border-radius:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.form-text-large{
+    width:350px;
+    height:200px;
+    padding:5px 15px 5px 15px;
+    font-size:16px;
+    border-radius:15px;
+    margin-top:10px;
+    margin-bottom:10px;
+    resize: none;
+}
+
+.form-circle{
+    width:150px;
+    height:150px;
+    padding:10px;
+    border-radius:50%;
+    background-color:black;
+    color:white;
+    display:inline-block;
+    margin:0 auto;
+    margin:15px;
+}
+.clickable-rectangle{
+    width: 80px;
+    height:20px;
+    color:black;
+    border:1px solid lightgray;
+    text-align: center;
+    border-left: 20px solid black;
+    display:inline-block;
+    padding:10px;
+    margin:20px;
+    cursor:pointer;
+}
+
+.form-circle img{
+    max-width: 50px;
+    margin-top:20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.form-text-standard:focus{
+    border: none;
+}
+.progress-bar{
+    height:100%;
+    width: 100%;
+    background-color:black;
+    border-radius: 25px;
+}
+.progress-container{
+    width:374px;
+    height:12px;
+    margin:0 auto;
+    margin-top:15px;
+    position: relative;
+}
+.progress-image{
+    position: absolute;
+    left: -7%;
+    height: 80px;
+    width: 80px;
+    top: calc(100% - 46px);
+}
+
+.progress-image-end{
+    position: absolute;
+    right: -7%;
+    height: 52px;
+    width: 80px;
+    top: calc(100% - 34px);
+}
+.hidden{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+.progress-progress{
+    background-color: rgb(203,0,67);
+    width:38px;
+    height: 15px;
+    margin-left: -1px;
+    margin-top: -0.86vw;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+input[type="file"]{
+    visibility: hidden;
+}
+.custom-file-upload{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.end-container{
+    width:30%;
+    height:300px;
+    display:inline-block;
+    vertical-align:top;
+    margin:10px;
+    text-align: left;
+}
+.wrapper-left{
+    width: 60%;
+    height: 50%;
+    margin-left: 133px;
+}
+.end-container p{
+    margin:2px;
+}
