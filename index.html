@@ -85,6 +85,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 1/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" class="progress-image" />
@@ -104,7 +105,8 @@ body {
                     </button>
                     <br />
                     <br />
-                    <div class="progress-container" style="margin-top:100px">
+                    <p>Stap 2/8</p>
+                    <div class="progress-container" >
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:3%" class="progress-image" />
                         <div class="progress-progress"></div>
@@ -123,6 +125,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 3/8</p>
                     <div class="progress-container" >
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:11%" class="progress-image" />
@@ -132,15 +135,15 @@ body {
                 </div>
                 <div class="form-section hidden" id="5" >
                     <p class="section-title"> <b>4</b> -> Ik werk liever</p>
-                    <div class="form-circle" onclick="saveTime('Alleen')">
+                    <div class="form-circle" onclick="saveTime('Alleen', this)">
                         <img src="images/user.png"  />
                         <p>Alleen</p>
                     </div>
-                    <div class="form-circle" onclick="saveTime('Team')">
+                    <div class="form-circle" onclick="saveTime('Team', this)">
                         <img src="images/user-team.png"  />
                           <p>Team</p>
                     </div>
-                    <div class="form-circle" onclick="saveTime('Maakt me niet uit')">
+                    <div class="form-circle" onclick="saveTime('Maakt me niet uit', this)">
                         <img src="images/user-mnu.png"  />
                           <p>Maakt me niet uit</p>
                     </div>
@@ -153,6 +156,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 4/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:27%" class="progress-image" />
@@ -181,6 +185,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 5/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:37%" class="progress-image" />
@@ -227,6 +232,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 6/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:48%" class="progress-image" />
@@ -250,6 +256,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 7/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:59%" class="progress-image" />
@@ -271,6 +278,7 @@ body {
                     </button>
                     <br />
                     <br />
+                    <p>Stap 8/8</p>
                     <div class="progress-container">
                         <div class="progress-bar"></div>
                         <img src="images/raket3.png" style="left:70%" class="progress-image" />
@@ -285,26 +293,21 @@ body {
                     <div class="end-container second">
                     </div>
                     <br />
-                    <button type="button" class="back-button" value="save" style="text-transform: initial !important" id="8">
+                    <button type="button" class="back-button" value="save" style="text-transform: initial !important" id="10">
                         Terug
                     </button>
                     <button type="button" class="next-button primary-color-bg" value="save" style="text-transform: initial !important" id="10">
                         Verstuur info
                     </button>
-                    <div class="form-section hidden"  id="11">
-                        <h1>Bedankt voor je input <span class="primary-color">Astronaut (naam van wat is ingevoerd bij de eerste stap)</span></h1>
-                        <h1> We nemen binnen <span class="primary-color"> 3 werkdagen</span> contact met je op!"</h1>
-                        <button type="button" class="next-button primary-color-bg" value="save" style="text-transform: initial !important" id="10">
-                            Home
-                        </button>
+                </div>
+                <div class="form-section hidden"  id="11" style="width:70%; margin:0 auto">
+                    <div id="last">
+
                     </div>
-                    <br />
-                    <br />
-                    <div class="progress-container">
-                        <div class="progress-bar"></div>
-                        <div class="progress-progress" style="width: 100%"></div>
-                        <img src="images/planet2.png" class="progress-image-end" />
-                    </div>
+                    <h1> We nemen binnen <span class="primary-color"> 3 werkdagen</span> contact met je op!</h1>
+                    <button type="button" class="next-button primary-color-bg" value="save" style="text-transform: initial !important" id="10">
+                        Home
+                    </button>
                 </div>
             </form>
         </div>

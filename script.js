@@ -9,6 +9,10 @@ $('.next-button').click(function(){
         loadRightSide();
     }
 
+    if(index == '10'){
+        loadLast();
+    }
+
     fadeOut(index).queue(function(){
         fadeIn(parseInt(index) + 1);
     });
@@ -71,15 +75,14 @@ function findObject(id){
 function saveValues(index) {
     findObject(index).find('input, textarea').each(function () {
         var value = $(this).val();
-        console.log(this)
-        console.log(value);
         user[$(this).attr('name')] = value;
     });
 }
-function saveTime(type){
+function saveTime(type, obj){
     user.work = type;
+    console.log(obj);
+    $(obj).css('border', '4px solid rgb(229,0,67)');
 }
-
 
 let user = {
     'first_name': '',
@@ -111,5 +114,11 @@ function loadRightSide(){
         '<p><b>Aangeleverde URL: </b>' + user.url + '</p><br />' +
         '<p><b>Aangeleverd CV: </b>' + user.cv + '</p><br /></div></div>'
 
+    );
+}
+
+function loadLast(){
+    $('#last').html(
+        '<h1>Bedankt voor je input <span class="primary-color">' + user.first_name+ ' </span></h1>'
     );
 }
